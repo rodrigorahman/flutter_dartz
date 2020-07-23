@@ -22,7 +22,7 @@ class _LoginPageState extends ModularState<LoginPage, LoginController> {
       //   () => null,
       //   (a) => null,
       // );
-      controller.failure.map((failure) {``
+      controller.failure.map((failure) {
         String message;
         if(failure is LoginNotFoundFailure) {
           message = 'Login ou senha inválidos';
